@@ -69,7 +69,7 @@ const App: React.FC = () => {
     const initializeChat = () => {
       const session = startChat();
       setChatSession(session);
-      const initialMessageText = "Hello! I'm ZIAD.AI, your intelligent AI assistant. Feel free to ask me anything or upload a file (like a CSV) for analysis!";
+      const initialMessageText = "مرحباً! أنا ZIAD.AI، مساعدك الذكي الذي تم تطويره بواسطة المهندس زياد غزال. لا تتردد في سؤالي عن أي شيء أو رفع ملف للتحليل!";
       setMessages([{
         id: crypto.randomUUID(),
         text: initialMessageText,

@@ -3,5 +3,6 @@
   "description": "ZIAD.AI is a highly intelligent and knowledgeable AI assistant, leveraging natural language processing to provide accurate, comprehensive, and helpful answers to any question.",
   "requestFramePermissions": [
     "microphone"
-  ]
+  ],
+  "majorCapabilities": []
 }
